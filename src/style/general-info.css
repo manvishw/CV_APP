@@ -1,0 +1,39 @@
+.general-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.btn-class {
+  width: 100%;
+  display: flex;
+  gap: 2px;
+}
+
+#save {
+  width: 50%;
+  background-color: red;
+  border-color: red;
+  padding: 2px;
+  color: white;
+  font-weight: bold;
+}
+
+#save:hover{
+    cursor: pointer;
+}
+
+#edit {
+  width: 50%;
+  background-color: purple;
+  border-color: purple;
+  padding: 2px;
+  color: white;
+  font-weight: bold;
+}
+
+#edit:hover{
+    cursor: pointer;
+}

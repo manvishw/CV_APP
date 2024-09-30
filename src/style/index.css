@@ -15,9 +15,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
-body {
+#root {
   height: 100vh;
-  background-color:var(--BG-COLOR);
+  background-color: var(--BG-COLOR);
   font-family: var(--ROBOTOMONO);
   display: grid;
   grid-template-rows: 1fr 10fr 1fr;
@@ -27,14 +27,16 @@ body {
     "Footer Footer Footer Footer";
 }
 
-header{
+header {
   grid-area: Header;
 }
 
-main{
+main {
   grid-area: Main;
 }
 
-footer{
+footer {
   grid-area: Footer;
 }
+
+
