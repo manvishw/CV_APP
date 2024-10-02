@@ -10,9 +10,10 @@ main{
 
 .user{
     width: 250px;
-    background-color: rgb(48, 214, 117);
+    background-color:  #FBEAEB;
+    color: #2F3C7E;
     grid-area: user;
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     margin: 1rem;
     padding: 1rem;
     display: flex;
@@ -24,5 +25,7 @@ main{
 .build-view{
     grid-area: main-section;
     flex-grow: 1;
+    background-color: black;
+    color: white;
 }
 

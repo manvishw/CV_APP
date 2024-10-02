@@ -50,7 +50,6 @@ const GeneralInfo = (data) => {
         >
           Save
         </button>
-        
       </div>
     </form>
   );

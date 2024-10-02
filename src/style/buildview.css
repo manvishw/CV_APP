@@ -5,18 +5,18 @@
   display: grid;
   grid-template-rows: 4fr 4fr 4fr;
   gap: 1rem;
-  /* background-color: rgba(201, 212, 44, 0.342); */
+  background-color: #2A3132;
+  color: #90AFC5;
 }
 
 hr {
-  background-color: black;
+  background-color: #D09683;
   height: 3.2px;
 }
 /* h1 {
   text-align: center;
 } */
 .general {
-  border: 2px solid red;
 
   display: flex;
   flex-direction: column;
@@ -26,7 +26,6 @@ hr {
 }
 
 .education {
-  border: 2px solid red;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -35,11 +34,9 @@ hr {
 }
 
 .practical {
-  border: 2px solid red;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   padding: 10px;
   gap: 7px;
 }
-

@@ -1,13 +1,25 @@
 
 header{
-    background-color: rgb(70, 3, 70);
+    background-color: #101820;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 1rem;
 }
 header p{
     font-size: 1.5rem;
-    color: white;
+    color:#FEE715;
+
     
-}   
+}
+header button{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background:url('../assets/Print.svg');
+    background-size: cover;
+}  
+
+header button:hover{
+    cursor: pointer;
+}

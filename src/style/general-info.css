@@ -9,7 +9,10 @@
 .btn-class {
   width: 100%;
   display: flex;
-  gap: 2px;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 #save {
@@ -19,14 +22,15 @@
   padding: 2px;
   color: white;
   font-weight: bold;
+  
 }
 
-#save:hover{
-    cursor: pointer;
+#save:hover {
+  cursor: pointer;
 }
 
 #edit {
-  width: 50%;
+  width: 40%;
   background-color: purple;
   border-color: purple;
   padding: 2px;
@@ -34,6 +38,6 @@
   font-weight: bold;
 }
 
-#edit:hover{
-    cursor: pointer;
+#edit:hover {
+  cursor: pointer;
 }
