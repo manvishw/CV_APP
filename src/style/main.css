@@ -1,31 +1,60 @@
-main{
-    height: 100%;
-    /* display: grid;
+main {
+  height: 100%;
+  /* display: grid;
     grid-template-areas: "user main-section"
                          "user main-section"; */
-    /* grid-template-columns: 4fr 8fr; */
+  /* grid-template-columns: 4fr 8fr; */
 
-    display: flex;
+  display: flex;
 }
 
-.user{
-    width: 250px;
-    background-color:  #FBEAEB;
-    color: #2F3C7E;
-    grid-area: user;
-    /* border: 2px solid purple; */
-    margin: 1rem;
-    padding: 1rem;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+.user {
+  width: 250px;
+  background-color: #fbeaeb;
+  color: #2f3c7e;
+  grid-area: user;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.build-view{
-    grid-area: main-section;
-    flex-grow: 1;
-    background-color: black;
-    color: white;
+.build-view {
+  grid-area: main-section;
+  flex-grow: 1;
+  background-color: black;
+  color: white;
 }
 
+
+input[type="text"],
+input[type="email"],
+input[type='number'],
+input[type='date'],
+select {
+    width: 100%;
+    padding: 8px 15px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+select:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+label {
+    margin-bottom: 8px;
+    display: block;
+    font-weight: bold;
+    color: #333;
+}

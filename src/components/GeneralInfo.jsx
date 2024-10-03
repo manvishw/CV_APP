@@ -18,7 +18,7 @@ const GeneralInfo = (data) => {
     >
       <label htmlFor="name">
         Enter Your Name
-        <input type="text" name="name" id="name" placeholder="Ramesh" />
+        <input type="text" name="name" id="name" />
       </label>
       <label htmlFor="email">
         Enter Your Email
@@ -26,7 +26,7 @@ const GeneralInfo = (data) => {
           type="email"
           name="email"
           id="email"
-          placeholder="example@mail.com"
+          
         />
       </label>
       <label htmlFor="number">
@@ -35,7 +35,7 @@ const GeneralInfo = (data) => {
           type="number"
           name="number"
           id="number"
-          placeholder="0123456789"
+          
         />
       </label>
       <div className="btn-class">

@@ -5,8 +5,9 @@
   display: grid;
   grid-template-rows: 4fr 4fr 4fr;
   gap: 1rem;
-  background-color: #2A3132;
-  color: #90AFC5;
+
+  background-color:  #101820;
+  color:  #FCF6F5;
 }
 
 hr {
@@ -17,12 +18,37 @@ hr {
   text-align: center;
 } */
 .general {
-
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   padding: 10px;
   gap: 7px;
+}
+.general h1{
+  background-color: #2C5F2D;
+  color: #97BC62;
+  padding-left: 1rem;
+
+}
+.email{
+  display: flex;
+  gap: 1rem;
+}
+.phoneNumber{
+  display: flex;
+  gap: 1rem;
+}
+
+#education{
+  background-color: #2C5F2D;
+  display: flex;
+  color: #97BC62;
+  gap: 1rem;
+}
+
+#education img{
+  width: 50px;
+  height: 50px;
 }
 
 .education {
@@ -39,4 +65,11 @@ hr {
   justify-content: space-evenly;
   padding: 10px;
   gap: 7px;
+}
+
+.practical h1{
+  background-color:#2C5F2D;
+  color: #97BC62;
+  padding-left: 1rem;
+
 }
